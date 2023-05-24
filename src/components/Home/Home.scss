@@ -1,0 +1,21 @@
+.Home {
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    ul{
+        display: flex;
+        gap: 15px;
+        font-size: 20px;
+    }
+
+    .btnLink{
+        button{
+            margin-right: 10px;
+        }
+    }
+  }
+}
